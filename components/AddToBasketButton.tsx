@@ -47,7 +47,7 @@ function AddToBasketButton({ product, disabled }: AddToBasketButtonProps) {
             onClick={() => addItem(product)}
             className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-200 ${disabled
                   ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-blue-500 hover:bg-blue-600"
+                  : "bg-purple-700 hover:bg-purple-800"
                }`}
             disabled={disabled}
          >

@@ -30,9 +30,9 @@ async function OrdersPage() {
                   {orders.map((order) => (
                      <div
                         key={order.orderNumber}
-                        className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden"
+                        className="bg-white border border-purple-700 rounded-lg shadow-sm overflow-hidden"
                      >
-                        <div className="p-4 sm:p-6 border-b border-gray-200">
+                        <div className="p-4 sm:p-6 border-b border-purple-700">
                            <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mb-4">
                               <div>
                                  <p className="text-sm text-gray-600 mb-1 font-bold">
